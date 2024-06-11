@@ -15,7 +15,9 @@ import './index.css';
 import App from './App.jsx';
 //import ContactPage from './pages/ContactPage.jsx';
 import ErrorPage from './pages/ErrorPage.jsx';
-import HomePage from './pages/HomePage.jsx';
+import Home from './pages/HomePage.jsx';
+import DeviceActions from './pages/DeviceActionsPage';
+import PaymentActions from './pages/PaymentActionsPage';
 //import PortfolioPage from './pages/PortfolioPage.jsx';
 //import ResumePage from './pages/ResumePage.jsx';
 
@@ -30,8 +32,17 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <HomePage /> // The Home page component
+        element: <Home /> // The Home page component
+        },
+        {
+        path: '/device-actions',
+        element: <DeviceActions /> // The Home page component
+        },
+        {
+        path: '/payment-actions',
+        element: <PaymentActions /> // The Home page component
         }
+
     ]
   }
 ]);

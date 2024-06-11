@@ -4,7 +4,7 @@ const Home = () => {
 
   return (
     <main>
-      <Actions/>
+      <h1>Home page</h1>
     </main>
   );
 };

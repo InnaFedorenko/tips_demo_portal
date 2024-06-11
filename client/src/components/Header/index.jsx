@@ -14,8 +14,8 @@ const Header = () => {
         <Navbar.Brand href="/">
           <img
             src={logoImage}
-            width="30"
-            height="30"
+            width="70"
+            height="40"
             className="d-inline-block align-top"
             alt="UniVersIty logo" 
           />
@@ -24,7 +24,12 @@ const Header = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/payment-actions">Payment Actions</Nav.Link>
+            <Nav.Link href="/device-actions">Device Actions</Nav.Link>
           </Nav>
+          <Nav className="me-auto">
+
+          </Nav>          
         </Navbar.Collapse>
       </Container>
     </Navbar>
