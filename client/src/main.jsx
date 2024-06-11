@@ -30,25 +30,10 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <HomePage />        
-        ,
-      } //,
-      /*
-      {
-        path: '/portfolio',
-        element: <PortfolioPage />,
-      },
-      {
-        path: '/contact',
-        element: <ContactPage />,
-      },
-      {
-        path: '/resume',
-        element: <ResumePage />,
-      },
-      */
-    ],
-  },
+        element: <HomePage /> // The Home page component
+        }
+    ]
+  }
 ]);
 
 // Render the root component using ReactDOM.createRoot
