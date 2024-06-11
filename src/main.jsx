@@ -13,12 +13,10 @@ import './index.css';
 
 // Import components for different pages
 import App from './App.jsx';
-import PaymentActions from './pages/PaymentActionsPage.jsx';
 import ErrorPage from './pages/ErrorPage.jsx';
 import HomePage from './pages/HomePage.jsx';
 import DeviceActions from './pages/DeviceActionsPage.jsx';
-//import ResumePage from './pages/ResumePage.jsx';
-
+import PaymentActions from './pages/PaymentActionsPage.jsx';
 
 
 // Create a router configuration using createBrowserRouter
@@ -40,10 +38,6 @@ const router = createBrowserRouter([
         path: '/payment',
         element: <PaymentActions/>,
       },
-      // {
-      //   path: '/resume',
-      //   element: <ResumePage />,
-      // },
     ],
   },
 ]);
