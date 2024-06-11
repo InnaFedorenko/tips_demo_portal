@@ -17,7 +17,7 @@ import ContactPage from './pages/ContactPage.jsx';
 import ErrorPage from './pages/ErrorPage.jsx';
 import HomePage from './pages/HomePage.jsx';
 import PortfolioPage from './pages/PortfolioPage.jsx';
-import ResumePage from './pages/ResumePage.jsx';
+//import ResumePage from './pages/ResumePage.jsx';
 
 
 
@@ -33,17 +33,17 @@ const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
-        path: '/portfolio',
+        path: '/device',
         element: <PortfolioPage />,
       },
       {
-        path: '/contact',
+        path: '/payment',
         element: <ContactPage />,
       },
-      {
-        path: '/resume',
-        element: <ResumePage />,
-      },
+      // {
+      //   path: '/resume',
+      //   element: <ResumePage />,
+      // },
     ],
   },
 ]);

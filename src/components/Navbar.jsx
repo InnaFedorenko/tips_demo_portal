@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { NavLink } from 'react-router-dom';
-import logoImage from '../assets/images/if_logo.png';
+import logoImage from '../assets/images/clover-logo.png';
 
 export default function Navbar_b() {
   // Set the active menu item based on the current page
@@ -33,8 +33,9 @@ export default function Navbar_b() {
         <Navbar.Brand href="#home">
           <img
             src={logoImage}
-            alt="Inna Fedorenko Logo"
-            height="50"
+            alt="App Logo"
+            height="60"
+            width= "90"
             className="d-inline-block align-top"
           />
         </Navbar.Brand>
@@ -50,25 +51,18 @@ export default function Navbar_b() {
               About
             </NavLink>
             <NavLink
-              className={` ${activeMenuItem === 'portfolio' ? 'active-link' : 'nav-link '}`}
-              to="/portfolio"
-              onClick={() => handleActiveMenuItem('portfolio')}
+              className={` ${activeMenuItem === 'device' ? 'active-link' : 'nav-link '}`}
+              to="/device"
+              onClick={() => handleActiveMenuItem('device')}
             >
-              Portfolio
+              Device Action
             </NavLink>
             <NavLink
-              className={`${activeMenuItem === 'contact' ? 'active-link' : 'nav-link '}`}
-              to="/contact"
-              onClick={() => handleActiveMenuItem('contact')}
+              className={`${activeMenuItem === 'payment' ? 'active-link' : 'nav-link '}`}
+              to="/payment"
+              onClick={() => handleActiveMenuItem('payment')}
             >
-              Contact
-              </NavLink>
-            <NavLink
-              className={`${activeMenuItem === 'resume' ? 'active-link' : 'nav-link '}`}
-              to="/resume"
-              onClick={() => handleActiveMenuItem('resume')}
-            >
-              Resume
+              Payment Action
               </NavLink>
           </Nav>
         </Navbar.Collapse>
