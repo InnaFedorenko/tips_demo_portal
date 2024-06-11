@@ -5,11 +5,11 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import imagePath from '/public/img/innafedorenko3.jpg';
+import imagePath from '/public/img/clover-partners.jpg';
 
 
 
-export default function AboutMe() {
+export default function About() {
   return (
     <section className="bg-gray-1000 py-20">
       <Container className='my-3'>
@@ -21,14 +21,14 @@ export default function AboutMe() {
             />
           </Col>
           <Col md={6} className="p-6 ">
-            <h1 className="text-3xl text-gray-1000 font-bold leading-none mb-3">
-             INNA FEDORENKO
-            </h1>
-            <h2 className="text-xl text-gray-1000 font-bold leading-none mb-3">
-            Web Developer
+            <h2 className="text-2xl text-gray-1000 font-bold leading-none mb-3">
+            A powerful POS system that hustles as hard as you do
             </h2>
+            <h3 className="text-xl text-gray-1000 font-bold leading-none mb-3">
+            Speak with us to hear about our limited time offers for new businesses!
+            </h3>
             <div >
-                    <a href="/contact" className="btn btn-dark btn-lg">
+                    <a href="https://www.clover.com/" className="btn btn-dark btn-lg">
                         Get in Touch
                     </a>
                 </div>

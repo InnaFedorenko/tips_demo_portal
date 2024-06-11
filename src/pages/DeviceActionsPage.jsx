@@ -5,10 +5,10 @@ import { Card } from 'react-bootstrap';
 import projects from '../data/projects'; // Import the updated projects array
 import gitLogo from '/public/img/logos/github.svg';
 
-export default function ProjectCards() {
+export default function DeviceActions() {
   return (
     <div className="row my-3" >
-    <h2 className="text-center">Creative Portfolio</h2>
+    <h2 className="text-center">Device Actions</h2>
       {projects.map((project, index) => (
         
         <div key={index} className="col-md-4 mb-4">

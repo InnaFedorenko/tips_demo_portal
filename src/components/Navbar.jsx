@@ -55,14 +55,14 @@ export default function Navbar_b() {
               to="/device"
               onClick={() => handleActiveMenuItem('device')}
             >
-              Device Action
+              Device Actions
             </NavLink>
             <NavLink
               className={`${activeMenuItem === 'payment' ? 'active-link' : 'nav-link '}`}
               to="/payment"
               onClick={() => handleActiveMenuItem('payment')}
             >
-              Payment Action
+              Payment Actions
               </NavLink>
           </Nav>
         </Navbar.Collapse>

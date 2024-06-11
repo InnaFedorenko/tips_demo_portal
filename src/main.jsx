@@ -13,10 +13,10 @@ import './index.css';
 
 // Import components for different pages
 import App from './App.jsx';
-import ContactPage from './pages/ContactPage.jsx';
+import PaymentActions from './pages/PaymentActionsPage.jsx';
 import ErrorPage from './pages/ErrorPage.jsx';
 import HomePage from './pages/HomePage.jsx';
-import PortfolioPage from './pages/PortfolioPage.jsx';
+import DeviceActions from './pages/DeviceActionsPage.jsx';
 //import ResumePage from './pages/ResumePage.jsx';
 
 
@@ -34,11 +34,11 @@ const router = createBrowserRouter([
       },
       {
         path: '/device',
-        element: <PortfolioPage />,
+        element: <DeviceActions />,
       },
       {
         path: '/payment',
-        element: <ContactPage />,
+        element: <PaymentActions/>,
       },
       // {
       //   path: '/resume',
