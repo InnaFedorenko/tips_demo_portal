@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col,  Accordion} from "react-bootstrap";
-import ActionsAccordionItem from "../components/ActionsAccordionItem";
+import ActionsAccordionItem from "./Accordion/ActionsAccordionItem";
 import paymentActionsData from "../data/paymentactions.js"
 import deviceActionsData from "../data/deviceactions.js"
 

@@ -1,0 +1,23 @@
+.custom-code-block {
+    margin: 10px 0; /* Adds space between custom-code-block */
+    background-color: #282c34; /* Dark background color */
+    color: #abb2bf; /* Light text color */
+    padding: 10px;
+    border-radius: 5px;
+  
+    font-family: 'Courier New', Courier, monospace; /* Monospaced font */
+    white-space: pre-wrap; /* Preserve whitespace and wrap lines */
+    overflow-x: auto; /* Enable horizontal scrolling if needed */
+  }
+  
+  .custom-block-title {
+    background-color: #282c34; /* Dark background color */
+    padding: 10px;
+    border-radius: 5px;
+    border: 10px solid white; 
+  }
+  
+  .text-warning {
+    color: #ffc107; /* Bootstrap's yellow text color */
+  }
+  
