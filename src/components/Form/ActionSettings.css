@@ -1,0 +1,24 @@
+.custom-col {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px; /* Space between blocks */
+  }
+  
+  .custom-block {
+    background-color: #f0f0f0; /* Light grey background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    height: 100%; /* Ensure blocks have the same height */
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Arrange content in column */
+    justify-content: space-between; /* Space between children */
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 767px) {
+    .custom-col {
+      margin-top: 20px; /* Add space on top for mobile */
+      margin-bottom: 20px; /* Add space on bottom for mobile */
+    }
+  }
+  
